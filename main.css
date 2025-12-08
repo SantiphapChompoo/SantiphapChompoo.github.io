@@ -9,7 +9,7 @@ body {
 
 .container {
     width: 90%;
-    max-width: 347px;
+    max-width: 350px;
     margin: 3rem auto;
     padding: 1rem;
     border-radius: 10px;
@@ -96,4 +96,5 @@ header h3 {
     height: auto;
     border-radius: 10px;
     border: 3px solid #ffe7f1;
+
 }
