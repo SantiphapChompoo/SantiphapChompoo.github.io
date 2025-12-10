@@ -130,3 +130,57 @@ header h3 {
     border-radius: 10px;
     margin-top: 1rem;
 }
+
+.login-container {
+    font-family: "Mitr", sans-serif;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-con {
+    background-color: #ffe7f1;
+    padding: 2rem;
+    border-radius: 20px;
+    border: 2px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-con h2{
+    font-weight: 100;
+    color: #ffffff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #f19191;
+    border-radius: 20px;
+}
+
+.login-container input {
+    border: none;
+    padding: .5rem;
+    border-radius: 10px;
+}
+
+.login-container button {
+    border: none;
+    padding: .5rem;
+    border-radius: 20px;
+    margin: .5rem 0;
+    background: #ffabc0;
+    color: #fff;
+}
+
+#Error {
+    padding: .5rem;
+    font-size: 16px;
+    margin-top: 1rem;
+    margin-bottom: -1rem;
+}
